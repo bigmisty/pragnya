@@ -248,7 +248,8 @@ h1 {
 }
 
 footer {
-  background-color: #1D2636
+  background-color: #1D2636;
+  margin-top: 150px;
 }
 
 footer form {
