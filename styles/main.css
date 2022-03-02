@@ -1,0 +1,418 @@
+.browsehappy {
+  margin: .2em 0;
+  background: #ccc;
+  color: #000;
+  padding: .2em 0
+}
+
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Regular.ttf);
+  font-weight: 400
+}
+
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Bold.ttf);
+  font-weight: 700
+}
+
+@font-face {
+  font-family: Lato;
+  src: url(../fonts/Lato-Light.ttf);
+  font-weight: 300
+}
+
+body {
+  font-family: Arimo, sans-serif;
+  /* background: url(../images/main.jpg)no-repeat; */
+  color: #000;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased
+}
+
+ul {
+  list-style: none
+}
+
+section {
+  padding-top: 60px;
+  padding-bottom: 60px
+}
+
+h1 {
+  font-size: 33px;
+  line-height: 66px;
+  font-weight: 700;
+  margin-bottom: 30px
+}
+
+.container-custom {
+  margin: 0 auto;
+  width: 100%
+}
+
+.greenblock {
+  height: 3px;
+  width: 66px;
+  background: #20AA73;
+  margin: 0 auto;
+  position: relative
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #fff;
+  border-radius: 0;
+  color: #000;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  height: 55px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .35)
+}
+
+.logo {
+  height: 56px;
+  position: relative;
+  top: -14px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #C10841
+}
+
+.navbar-default .navbar-nav>li>a:focus {
+  border-bottom: 2px solid #C10841
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #000
+}
+
+.section1 {
+  text-align: center;
+  color: #fff
+}
+
+.help-items {
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, .7);
+  margin-top: 12%;
+  margin-bottom: 10%
+}
+
+.section1 h1 {
+  text-shadow: #080D10 1px 2px 7px;
+  margin-top: 12%;
+  font-size: 56px
+}
+
+.btn-red {
+  background-color: #E96656;
+  margin-right: 56px;
+  border: none;
+  padding: 10px;
+  transition: all .5s ease-in
+}
+
+.btn-red:hover {
+  background-color: #CB4332;
+  border: none;
+  padding: 10px
+}
+
+.btn-green {
+  background-color: #C10841;
+  border: none;
+  padding: 10px;
+  width: 150px;
+  transition: all .25s ease-in
+}
+
+.transparent-btn, .transparent-btn:hover {
+  color: #FFF;
+  border: none;
+  transition: background .3s ease 0s;
+  min-height: 0;
+  min-width: 0;
+  padding: 10px 29px;
+  letter-spacing: 0;
+  background-color: #C10841;
+  margin-right: 10px
+}
+
+.btn-green:hover {
+  background: #069059;
+  border: none;
+  padding: 10px
+}
+
+.section2 {
+  text-align: center;
+  background-color: #fff
+}
+
+.section2 h2 {
+  font-weight: 700;
+  color: #404040;
+  font-size: 33px
+}
+
+.section2 h3 {
+  font-weight: 300;
+  font-size: 20px
+}
+
+.section2 h5 {
+  line-height: 30px;
+  color: #6A7A84;
+  font-size: 15px;
+  font-weight: 300
+}
+
+.section2 em {
+  font-size: 16px;
+  font-weight: 300;
+  color: #6A7A84;
+  padding: 0 100px;
+  display: inline-block
+}
+
+.services-list {
+  margin-top: 60px;
+  margin-bottom: 60px
+}
+
+.section2 .greenblock {
+  margin-bottom: 10px
+}
+
+.section2 .fa {
+  color: #C10841;
+  font-size: 60px
+}
+
+.service-img1 {
+  background: url(../images/d95128b0.sap.png) 0 0/contain no-repeat;
+  display: block;
+  height: 63px;
+  width: auto;
+  margin: 31px
+}
+
+.section3 .fa {
+  padding-right: 6px;
+  color: #C10841;
+  font-size: 60px;
+  position: relative;
+  bottom: -37px;
+  left: 6px
+}
+
+.sectionclients {
+  background: 0 0;
+  text-align: center;
+  padding-top: 0;
+  color: #404040;
+  position: relative;
+  padding-bottom: 30px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .35)
+}
+
+.sectionclients h1 {
+  margin-bottom: 0
+}
+
+.sectionclients>.greenblock {
+  margin-bottom: 16px
+}
+
+.clients {
+  height: 60px;
+  margin-bottom: 60px
+}
+
+.clients-block {
+  margin-top: 60px
+}
+
+#owl-demo .item {
+  margin: 3px
+}
+
+#owl-demo .item img {
+  display: block;
+  width: 150px;
+  height: auto;
+  margin: 0 auto
+}
+
+footer {
+  background-color: #1D2636
+}
+
+footer form {
+  position: relative;
+  top: -160px;
+  background: #FFF;
+  padding: 60px;
+  box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, .75);
+  font-weight: 400
+}
+
+footer form .btn-green, footer form .btn-green:hover {
+  color: #fff
+}
+
+footer form label {
+  font-weight: 400
+}
+
+.brand {
+  margin-top: 30px;
+  margin-bottom: 30px
+}
+
+.address {
+  margin-top: 21px;
+  margin-bottom: 20px;
+  color: #7CA1B3
+}
+
+.fa {
+  padding-right: 6px;
+  color: #fff
+}
+
+.overlay {
+  background: 0 0;
+  position: relative;
+  width: 100%;
+  height: 600px;
+  top: 600px;
+  margin-top: -600px
+}
+
+.maps {
+  background-color: #fff
+}
+
+.phone {
+  color: #7CA1B3
+}
+
+.section3 {
+  background-color: #fff;
+  border-top: 1px solid #ccc
+}
+
+.section3 h1 {
+  margin-bottom: 0
+}
+
+.section3-title {
+  text-align: center;
+  color: #404040
+}
+
+.section3-subheading {
+  font-size: 16px;
+  line-height: inherit
+}
+
+.focus-box {
+  text-align: center;
+  color: inherit
+}
+
+.focus-box>h5 {
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 17px;
+  margin-top: 16px
+}
+
+.focus-box p {
+  font-size: 14px
+}
+
+.service-box {
+  border-radius: 50%;
+  border: 10px solid #ECECEC;
+  width: 150px;
+  height: 150px;
+  margin: auto
+}
+
+.service-box-red {
+  border: 10px solid #FC6D6D
+}
+
+.service-box-green {
+  border: 10px solid #34D293
+}
+
+.service-box-blue {
+  border: 10px solid #3AB0E2
+}
+
+/* Particle JS */
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #00b7fa;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/* ---- stats.js ---- */
+
+.count-particles{
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles{
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles{
+  -webkit-user-select: none;
+}
+
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}
