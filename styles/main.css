@@ -77,11 +77,11 @@ h1 {
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-  color: #C10841
+  color: #e9791a;
 }
 
 .navbar-default .navbar-nav>li>a:focus {
-  border-bottom: 2px solid #C10841
+  border-bottom: 2px solid #e9791a
 }
 
 .navbar-default .navbar-nav>li>a {
